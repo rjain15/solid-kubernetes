@@ -54,7 +54,7 @@ export default {
 //   background-color red
 
 h1:first-child 
-  margin-top -6.5rem !important
+  // margin-top -6.5rem !important
   // background-color green
 
 </style>
