@@ -1,4 +1,12 @@
 
+---
+meta:
+  - name: introduction
+    content: Introduction to the Solid Kubernetes 
+  - name: keywords
+    content: kubernetes cicd servicemesh monitoring platform servicediscovery logging loadbalancing
+---
+
 # Introduction
 
 This guide to take your applications to production on a Kubernetes platform.
@@ -38,6 +46,6 @@ This is a vendor neutral guide, so how you implement these concerns on you path,
 
 If you have any ideas for steps you'd like to see then [raise as an issue](https://github.com/rjain15/solid-kubernetes/issues/new) labelled **enhancement**
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/a309aaed-ff9e-4eb4-88f8-aa3cabbf1b1d/deploy-status)](https://app.netlify.com/sites/lucid-curie-1e3c49/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b8b4b21a-37c7-49a5-b20f-711bf3930639/deploy-status)](https://app.netlify.com/sites/confident-lalande-e0b863/deploys)
 
 <Advert/>
