@@ -1,7 +1,6 @@
 const { fs, path } = require('@vuepress/shared-utils')
 
 module.exports = ctx => ({
-dest: './solid-kubernetes',
 base: "/docs/",
 ga: 'UA-132184138-2',
 locales: {
