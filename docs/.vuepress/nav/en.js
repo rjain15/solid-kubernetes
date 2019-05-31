@@ -1,7 +1,7 @@
 module.exports = [
   {
-    text: 'Home',
-    link: '/guide/',
+    text: 'Docs',
+    link: '/',
   },
   {
     text: 'Learn More',
@@ -11,15 +11,15 @@ module.exports = [
         items: [
           {
             text: 'How to Contribute',
-            link: '/miscellaneous/design-concepts.html'
+            link: '/miscellaneous/contribute.md'
           },
           {
             text: 'FAQ',
-            link: '/faq/',
+            link: '/miscellaneous/faq.md',
           },
           {
             text: 'Glossary',
-            link: '/miscellaneous/glossary.html'
+            link: '/miscellaneous/glossary.md'
           },
         ]
       },
@@ -27,6 +27,6 @@ module.exports = [
   },
   {
     text: '1.0',
-    link: 'https://solidk8s.netlify.org/'
+    link: 'https://sk8s.kubelabs.io/'
   },
 ]

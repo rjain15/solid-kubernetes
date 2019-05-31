@@ -1,10 +1,3 @@
----
-meta:
-  - name: description
-    content: Examples of useful vuepress code
-  - name: keywords
-    content: vuepress vue home markdown examples example demos demo
----
 
 # Introduction
 

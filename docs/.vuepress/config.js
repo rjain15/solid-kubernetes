@@ -2,6 +2,8 @@ const { fs, path } = require('@vuepress/shared-utils')
 
 module.exports = ctx => ({
 dest: './solid-kubernetes',
+base: "/docs/",
+
 locales: {
     '/': {
         lang: 'en-US',
@@ -29,7 +31,7 @@ extend: '@vuepress/theme-default',
 themeConfig: {
     repo: 'rjain15/solid-kubernetes',
     editLinks: true,
-    logo: '/tesseract.png',
+    logo: '../tesseract.png',
     docsDir: 'docs',
     lastUpdated: false,
 
@@ -46,18 +48,18 @@ themeConfig: {
             lastUpdated: 'Last Updated',
             sidebar: [
                 ["/", "Home"],
+                ["./gettingstarted/", "Getting Started"],
                 "./rbac/",
                 "./tls/",
+                "./loadbalancing/",
+                "./ingress/",
+                "./cicd/",
+                "./servicediscovery/",
+                "./servicemesh/",
                 "./monitoring/",
                 "./logging/",
                 "./tracing/",
-                "./cicd/",
-                ["./gettingstarted/", "Getting Started"],
-                "./loadbalancing/",
-                "./ingress/",
                 "./ha/",
-                "./servicemesh/",
-                "./servicediscovery/",
               ],
               nav: require('./nav/en'),
         }
